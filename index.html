@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio de Redações</title>
+
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Redações de Portugues</h1>
+      <div class="subtitle"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid" id="cards"></section>
+  </main>
+
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <article class="modal" id="modal">
+      <div class="title">
+        <h3 id="modalTitle"></h3>
+        <div>
+          <button class="close btn" id="closeBtn" aria-label="Fechar">Fechar ✕</button>
+        </div>
+      </div>
+      <div class="content" id="modalContent"></div>
+    </article>
+  </div>
+
+  <!-- JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
